@@ -1,0 +1,1 @@
+How can we better determine the quality of a piece of software holistically, going beyond coding standards and test coverage metrics? How can we evaluate its true beauty?

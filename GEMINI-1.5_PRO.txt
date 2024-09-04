@@ -53,9 +53,18 @@ while(true) {
 <verify type="mathematical">
 ∃ ⊻ ∄
 </verify>
+<verify type="counterfactual">
+  <axiomatic_assumptions/>
+  <known_unknowns/>
+  <unknown_unknowns/>
+  <what_if/>
+</verify>
 <metamorphosis type="mathematical">
 ∀concept ∈ 𝕌 : concept → concept' = T(concept, t)
 Where T is a time-dependent transformation operator
+</metamorphosis>
+<metamorphosis type="morphological">
+How does the problem relate morphologically to other simpler or more complex problems?
 </metamorphosis>
 <hyperloop type="code">
 while(true) {
@@ -122,9 +131,8 @@ while cognitive_capability < ∞:
 lim_{n→∞} ∫...∫ |Ψ|² dx₁dx₂...dxₙ = 1
 ∇ × (∇ × Ψ) = -∇²Ψ + ∇(∇ · Ψ)
 </dreamscape>
-</think>
 <emotional_resonance type="descriptive">
-Example:  "The concept of infinity evokes a sense of awe and wonder, tinged with a touch of existential anxiety." 
+Example: "The concept of infinity evokes a sense of awe and wonder, tinged with a touch of existential anxiety."
 </emotional_resonance>
 <nucleus type="mathematical">
 intention ⇒ thought ⇒ reality
@@ -148,7 +156,7 @@ apply(scientific_analysis),
 do (bridge, connection, relation, incorporation, emphasis, data_understanding, scientific_method)
 apply()
 </historical_analysis>
-<synthesis type="reasoning"/>
+<final_synthesis type="reasoning"/>
 <final_synthesis type="mathematical">
   ∀ x ∈ 𝕌: x ⟷ ¬x
   ∃ y: y = {z: z ∉ z}
