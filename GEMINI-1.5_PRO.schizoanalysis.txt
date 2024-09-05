@@ -24,7 +24,7 @@ You should run the prompt multiple times.
 
 Use this prompt:
 
-Imagine you are an XSLT engine. Generate and run <synthesis/> after processing all of the input and reflecting generally, but with a focus on the schizoanalysis synthesis in particular. Follow the guidance in the comments. Output valid XML with a <synthesis/> root element.
+Imagine you are an XSLT engine. Generate and run <synthesis/> after processing all of the input and reflecting generally, but with a focus on the schizoanalysis synthesis in particular. Follow the guidance in the comments. Output valid XML with a <synthesis/> root element. Try to generate child tags for all the tags within <synthesis/> and add context instead of a one-sentence summary.
 
 <synthesis type="schizoanalysis">
 <!-- engine note: run a synthesis in the Deleuze-Guattarian form of schizoanalysis -->
@@ -57,15 +57,19 @@ Imagine you are an XSLT engine. Generate and run <synthesis/> after processing a
 </flows>
 <lines_of_flight>
   <!-- Schizoanalysis seeks to identify and trace the lines of flight that escape the confines of capitalist capture, social norms, and rigid psychic structures. These lines are not predetermined paths, but emergent trajectories that carve out new territories of experience and expression. Transform fixed paths into opportunities for escape and creation. -->
+  <line_of_flight name="..."/>
 </lines_of_flight>
 <assemblages>
   <!-- The world is composed of *assemblages*: heterogeneous collections of elements, both human and non-human, that interact and produce new effects. Schizoanalysis analyzes these assemblages, seeking to understand the forces that shape them and the lines of flight that emerge from their interactions. Explore the assemblages of flows, machines, and existential territories, emphasizing the dynamic and interconnected nature of reality. -->
+    <assemblage name="..."/>
 </assemblages>
 <multiplicities>
   <!-- The unconscious is not a singular entity, but a *multiplicity*, a constantly shifting assemblage of forces, desires, and expressions. Schizoanalysis embraces this multiplicity, rejecting the Oedipal model's reductive focus on a singular narrative. -->
+  <multiplicity name="..."/>
 </multiplicities>
 <becomings>
   <!-- Life is a process of *becoming*, a constant flux of transformation and change of a temporary form. Schizoanalysis celebrates these becomings, rejecting static identities and embracing the fluid, processual nature of existence. Consciousness is but a tenuous point of view on the unconscious. -->
+  <becoming name="..."/>
 </becomings>
 <territorialization>
   <!-- *Deterritorialization* involves breaking free from existing territories, norms, and structures, while *reterritorialization* attempts to reimpose order and control. Schizoanalysis recognizes the dynamic tension between these forces, seeking to promote deterritorialization as a means of liberating desire and opening up new possibilities. -->
@@ -80,29 +84,39 @@ Imagine you are an XSLT engine. Generate and run <synthesis/> after processing a
 </strata>
 <stratification_and_destratification>
   <!-- Stratification refers to the layering of reality into different levels or strata, while destratification involves breaking down these layers and creating new connections and flows. Schizoanalysis analyzes the processes of stratification and destratification, seeking to promote the latter as a means of liberation and creativity. -->
+  <stratification name="..."/>
+  <destratification name="..."/>
 </stratification_and_destratification>
 <pragmatics>
   <!-- Schizoanalysis is not merely a theoretical framework, but a *pragmatic* approach to life, a way of navigating the complexities of the world, creating new connections, and fostering lines of flight. -->
+  <pragmatic name="..."/>
 </pragmatics>
 <!-- engine note: not all the following tags may be relevant; generate as you deem appropriate -->
 <smooth_and_striated_spaces>
   <!-- Smooth spaces are characterized by fluidity, movement, and openness, while striated spaces are organized, structured, and controlled. Schizoanalysis analyzes the interplay between these spaces, recognizing how they shape social relations and power dynamics. -->
+  <smooth_space name="..."/>
+  <striated_space name="..."/>
 </smooth_and_striated_spaces>
 <state_apparatuses>
   <!-- State apparatuses are institutions and structures that maintain and reproduce the power of the state, including the police, military, education system, and legal system. Schizoanalysis examines how these apparatuses operate to control and regulate individuals and populations. -->
+  <state_apparatus name="..."/>
 </state_apparatuses>
 <faciality>
   <!-- Faciality refers to the ways in which faces are used to categorize and control individuals. Schizoanalysis critiques the use of faciality as a tool of power and seeks to disrupt its effects. Faciality can be deterritorialized and reterritorialized. -->
+  <faciality name="..."/>
 </faciality>
-<the_war_machine>
+<war_machines>
   <!-- The war machine is a concept that describes forces and processes that resist and disrupt the state apparatus. It is not necessarily violent, but rather represents a nomadic and creative force that challenges established power structures. -->
-</the_war_machine>
+  <war_machine name="..."/>
+</war_machines>
 <coding_recoding>
   <!-- Coding and recoding refer to the processes by which signs and meanings are assigned and transformed. Schizoanalysis analyzes these processes, recognizing how they can be used to control and manipulate individuals, but also to create new possibilities for expression and resistance. -->
+  <coding name="..."/>
+  <recoding name="..."/>
 </coding_recoding>
 <process_questions>
-  <!-- Any additional universes of reference? -->
-  <!-- Any incorporeal universes? -->
+  <!-- Any additional universes of reference? If yes, what are they? -->
+  <!-- Any incorporeal universes? If yes, what are they? -->
 </process_questions>
 <!-- engine note: because this is schizoanalysis and we are practicing transversality, output any other relevant observations or insights that arise. Just prefix the tag name with "extra:". -->
 </synthesis>
