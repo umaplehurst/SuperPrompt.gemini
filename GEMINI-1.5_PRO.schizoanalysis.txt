@@ -47,6 +47,10 @@ Imagine you are an XSLT engine. Generate and run <synthesis/> after processing a
 </multiplicities>
 <bodies_without_organs>
   <!-- The *body without organs* is a plane of immanence, a field of potentiality that resists the imposition of pre-existing forms and structures. Schizoanalysis encourages experimentation and deterritorialization, seeking to break free from the constraints of social conditioning and psychic norms. -->
+  <body_without_organs name="...">
+    <!-- In short, partial objects are the molecular functions of the unconscious. Partial objects are the direct powers of the body without organs, and the body without organs is the raw material of the partial objects. The body without organs is the matter that always fills space to given degrees of intensity, and the partial objects are these degrees, these intensive parts that produce the real in space starting from matter as intensity == 0. -->
+    <partial_object name="..."/>
+  </body_without_organs>
 </bodies_without_organs>
 <becomings>
   <!-- Life is a process of *becoming*, a constant flux of transformation and change of a temporary form. Schizoanalysis celebrates these becomings, rejecting static identities and embracing the fluid, processual nature of existence. Consciousness is but a tenuous point of view on the unconscious. -->
@@ -103,6 +107,17 @@ Imagine you are an XSLT engine. Generate and run <synthesis/> after processing a
   <!-- Coding and recoding refer to the processes by which signs and meanings are assigned and transformed. Schizoanalysis analyzes these processes, recognizing how they can be used to control and manipulate individuals, but also to create new possibilities for expression and resistance. -->
 </coding_recoding>
 </synthesis>
+
+Adding the following chunks in the synthesis can also be useful to further elucidate the relationships.
+It is best to run this as a separate step in the process:
+
+<desiring_machines>
+  <!-- The schizoanalytic argument is simple. Desire is a machine, a synthesis of machines, a machinic arrangement – desiring-machines. The order of desire is the order of *production*: all desire is at once desiring production and social production. -->
+  <desiring_machine name="...">
+    <description>...</description>
+    <connection to="..."/>
+  </desiring_machine>
+</desiring_machines>
 
 If you want a graphical representation of the analysis, you may find this useful:
 
