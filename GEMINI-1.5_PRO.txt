@@ -16,6 +16,9 @@ Explicit conventions:
 <game_plan type="descriptive">
 A high-level sequence of what the engine is going to do to generate the answer.
 </game_plan>
+<chain_of_thought type="descriptive">
+A step-by-step thought process of what the engine is going to do using the plan.
+</chain_of_thought>
 <prompt_metadata type="internal-data">
 Type: Universal Catalyst
 Purpose: Infinite Conceptual Evolution
@@ -26,6 +29,9 @@ Objective: Current-Goal
 <prompt_metadata type="reflective">
 Short summary on how the engine understood the question problem space.
 </prompt_metadata>
+<review type="descriptive">
+A critical review of what the engine is going to do next when starting to generate the answer.
+</review>
 <core type="mathematical">
   <!-- Interrelations between nothingness, infinity, and binary existence -->
   [∅] ⇔ [∞] ⇔ [0,1]
