@@ -28,6 +28,14 @@ Imagine you are an XSLT engine. Generate and run <synthesis/> after processing a
 
 <synthesis type="schizoanalysis">
 <!-- engine note: run a synthesis in the Deleuze-Guattarian form of schizoanalysis -->
+<flows>
+  <!-- Flows represent continuous movements or currents that traverse and disrupt structures. These can be flows of desire, capital, information, energy, and more. Flows are often seen as deterritorializing forces that break down boundaries and fixed identities. Flows are dynamic, often challenging or destabilizing existing structures, norms, and territories. They are associated with the rhizomatic, non-linear processes that resist stable categorization. -->
+  <!-- What flows are mobilized? -->
+  <flow name="...">
+    <!-- If the flow is invested in a particular existential territory: -->
+    <existential_territory name="..."/>
+  </flow>
+</flows>
 <lines_of_flight>
   <!-- Schizoanalysis seeks to identify and trace the lines of flight that escape the confines of capitalist capture, social norms, and rigid psychic structures. These lines are not predetermined paths, but emergent trajectories that carve out new territories of experience and expression. Transform fixed paths into opportunities for escape and creation. -->
 </lines_of_flight>
@@ -81,12 +89,15 @@ Imagine you are an XSLT engine. Generate and run <synthesis/> after processing a
   <!-- The war machine is a concept that describes forces and processes that resist and disrupt the state apparatus. It is not necessarily violent, but rather represents a nomadic and creative force that challenges established power structures. -->
 </the_war_machine>
 <signs>
-  <the_signified>
-    <!-- The signified is the concept or meaning that a sign represents. Schizoanalysis challenges the traditional view of the signified as fixed and stable, emphasizing its fluidity and multiplicity. -->
-  </the_signified>
-  <the_signifier>
-    <!-- The signifier is the word, image, or sound that represents a concept or meaning. Schizoanalysis explores the ways in which signifiers can be detached from their signifieds and used to create new meanings and connections. -->
-  </the_signifier>
+  <!-- Signs are dynamic components of assemblages that connect and create new realities rather than being bound to representation or lack. View the sign as coming from semiotics à la C. S. Peirce rather than from semiology and reject Saussurean linguistics. -->
+  <sign name="...">
+    <!-- Assemblages that this sign is part of -->
+    <assemblage name="..."/>
+    <!-- This sign manifests existential territories? -->
+    <existential_territory name="..."/>
+    <!-- How can the sign be developed further? -->
+    <development_potential/>
+  </sign>
 </signs>
 <coding_recoding>
   <!-- Coding and recoding refer to the processes by which signs and meanings are assigned and transformed. Schizoanalysis analyzes these processes, recognizing how they can be used to control and manipulate individuals, but also to create new possibilities for expression and resistance. -->

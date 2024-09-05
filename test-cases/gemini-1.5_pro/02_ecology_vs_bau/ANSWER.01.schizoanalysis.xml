@@ -1,0 +1,120 @@
+<synthesis type="schizoanalysis">
+  <flows>
+    <flow name="Capitalist Expansion">
+      <existential_territory name="Market"/>
+    </flow>
+    <flow name="Information">
+      <existential_territory name="Media"/>
+      <existential_territory name="Academia"/>
+    </flow>
+    <flow name="Ecological Degradation">
+      <existential_territory name="Biosphere"/>
+    </flow>
+    <flow name="Social Awareness">
+      <existential_territory name="Civil Society"/>
+    </flow>
+  </flows>
+  <lines_of_flight>
+    <line_of_flight name="Transition to Sustainability">
+      <!-- Represents a potential escape from the dominant capitalist paradigm towards a more sustainable and equitable future. -->
+    </line_of_flight>
+    <line_of_flight name="Cognitive Enhancement">
+      <!-- Represents the potential for expanding human cognitive capacity to better understand and address complex challenges. -->
+    </line_of_flight>
+    <line_of_flight name="Paradigm Shift">
+      <!-- Represents the possibility of a fundamental shift in values, beliefs, and worldviews towards a more holistic and ecological perspective. -->
+    </line_of_flight>
+  </lines_of_flight>
+  <rhizomes>
+    <!-- The interconnected network of factors contributing to BaU -->
+    <rhizome name="BaU Rhizome">
+      <connection from="Capitalist Expansion" to="Ecological Degradation"/>
+      <connection from="Information" to="Social Awareness"/>
+      <connection from="Social Awareness" to="Transition to Sustainability"/>
+      <connection from="Cognitive Enhancement" to="Paradigm Shift"/>
+    </rhizome>
+  </rhizomes>
+  <multiplicities>
+    <multiplicity name="Human Responses to Ecological Collapse">
+      <!-- Represents the diverse range of human responses, from denial and apathy to activism and innovation. -->
+    </multiplicity>
+  </multiplicities>
+  <bodies_without_organs>
+    <body_without_organs name="Sustainable Future">
+      <!-- Represents a potential future state that is not yet fully formed, but holds the possibility for a more harmonious relationship between humanity and the environment. -->
+    </body_without_organs>
+  </bodies_without_organs>
+  <becomings>
+    <becoming name="Becoming Ecological">
+      <!-- Represents a process of transformation towards a more ecologically conscious and responsible way of being. -->
+    </becoming>
+  </becomings>
+  <assemblages>
+    <assemblage name="Capitalist Assemblage">
+      <element>Market</element>
+      <element>Corporations</element>
+      <element>Consumers</element>
+      <element>Growth Imperative</element>
+    </assemblage>
+    <assemblage name="Ecological Assemblage">
+      <element>Biosphere</element>
+      <element>Ecosystems</element>
+      <element>Resource Limits</element>
+      <element>Environmental Feedback Loops</element>
+    </assemblage>
+  </assemblages>
+  <deterritorialization_and_reterritorialization>
+    <deterritorialization name="Challenging the Growth Paradigm">
+      <!-- Represents efforts to disrupt the dominant narrative of continuous economic growth. -->
+    </deterritorialization>
+    <reterritorialization name="Greenwashing">
+      <!-- Represents attempts by corporations and governments to reframe unsustainable practices as environmentally friendly. -->
+    </reterritorialization>
+  </deterritorialization_and_reterritorialization>
+  <strata>
+    <stratum name="Economic Stratum">
+      <!-- Represents the dominant economic system and its influence on resource allocation, production, and consumption. -->
+    </stratum>
+    <stratum name="Social Stratum">
+      <!-- Represents social norms, values, and power structures that shape human behavior. -->
+    </stratum>
+    <stratum name="Cognitive Stratum">
+      <!-- Represents the realm of human thought, beliefs, and cognitive biases. -->
+    </stratum>
+  </strata>
+  <stratification_and_destratification>
+    <destratification name="Interdisciplinary Collaboration">
+      <!-- Represents efforts to break down disciplinary boundaries and foster collaboration between different fields of knowledge to address complex challenges. -->
+    </destratification>
+  </stratification_and_destratification>
+  <pragmatics>
+    <pragmatic name="Developing Sustainable Solutions">
+      <!-- Represents the practical application of knowledge and insights to create and implement solutions for ecological challenges. -->
+    </pragmatic>
+  </pragmatics>
+  <state_apparatuses>
+    <state_apparatus name="Government Regulations">
+      <!-- Can either promote or hinder sustainability depending on their design and enforcement. -->
+    </state_apparatus>
+  </state_apparatuses>
+  <signs>
+    <sign name="Economic Growth">
+      <assemblage name="Capitalist Assemblage"/>
+      <development_potential>
+        <!-- Can be reinterpreted to encompass qualitative rather than purely quantitative growth, focusing on well-being and ecological health. -->
+      </development_potential>
+    </sign>
+    <sign name="Climate Change">
+      <assemblage name="Ecological Assemblage"/>
+      <existential_territory name="Global"/>
+      <development_potential>
+        <!-- Can be developed into a call for collective action and a catalyst for societal transformation. -->
+      </development_potential>
+    </sign>
+  </signs>
+  <coding_recoding>
+    <coding name="Framing of Ecological Issues">
+      <!-- How ecological issues are framed in the media and public discourse can significantly influence public perception and policy responses. -->
+    </coding>
+  </coding_recoding>
+</synthesis>
