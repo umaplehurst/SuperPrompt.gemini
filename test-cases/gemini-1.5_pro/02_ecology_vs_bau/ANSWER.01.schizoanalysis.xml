@@ -1,107 +1,146 @@
-<synthesis type="schizoanalysis">
+<synthesis type='schizoanalysis'>
+  <rhizomes>
+    <rhizome name='Cognitive Biases & Ecological Collapse'>
+      <!-- Cognitive biases, like denial and optimism bias, intertwine with the awareness of and response to ecological collapse, creating a network of interconnected beliefs, emotions, and behaviors. -->
+    </rhizome>
+    <rhizome name='Economic Systems & Unsustainability'>
+      <!-- The growth imperative of capitalism and its focus on short-term profits form a rhizomatic network with resource depletion, environmental degradation, and the "Business as Usual" attitude, influencing social norms and political decisions. -->
+    </rhizome>
+    <rhizome name='Social Structures & Power Dynamics'>
+      <!-- Existing power structures, vested interests, and social norms interact with ecological concerns, shaping public discourse, policy decisions, and individual actions in a complex, interconnected way. -->
+    </rhizome>
+  </rhizomes>
+  <plateaux>
+    <plateau name='Denial'>
+      <description>A state where individuals and societies refuse to acknowledge the severity of ecological collapse, despite mounting evidence, clinging to familiar narratives and resisting change.</description>
+      <connection to='Cognitive Biases & Ecological Collapse'/>
+    </plateau>
+    <plateau name='Growth Imperative'>
+      <description>The dominant economic paradigm that prioritizes continuous economic expansion, often at the expense of environmental sustainability and social well-being.</description>
+      <connection to='Economic Systems & Unsustainability'/>
+    </plateau>
+    <plateau name='Technological Optimism'>
+      <description>The belief that technological advancements will ultimately solve all environmental problems, allowing for continued economic growth without addressing underlying systemic issues.</description>
+      <connection to='Economic Systems & Unsustainability'/>
+      <connection to='Cognitive Biases & Ecological Collapse'/>
+    </plateau>
+    <plateau name='Emotional Dissonance'>
+      <description>The tension between the awareness of ecological collapse and the emotional difficulty of processing its implications, leading to feelings of anxiety, fear, and helplessness.</description>
+      <connection to='Cognitive Biases & Ecological Collapse'/>
+    </plateau>
+  </plateaux>
+  <bodies_without_organs>
+    <body_without_organs name='Capitalist Machine'>
+      <partial_object name='Consumerism'/>
+      <partial_object name='Resource Extraction'/>
+      <partial_object name='Profit Maximization'/>
+    </body_without_organs>
+    <body_without_organs name='The Anthropocene'>
+      <partial_object name='Climate Change'/>
+      <partial_object name='Biodiversity Loss'/>
+      <partial_object name='Pollution'/>
+    </body_without_organs>
+  </bodies_without_organs>
   <flows>
-    <flow name="Capital">
-      <existential_territory name="Market"/>
+    <flow name='Information'>
+      <existential_territory name='Scientific Research'/>
+      <existential_territory name='Media Representation'/>
+      <existential_territory name='Public Discourse'/>
     </flow>
-    <flow name="Desire">
-      <existential_territory name="Consumerism"/>
+    <flow name='Capital'>
+      <existential_territory name='Financial Markets'/>
+      <existential_territory name='Corporations'/>
+      <existential_territory name='Consumer Spending'/>
     </flow>
-    <flow name="Information">
-      <existential_territory name="Media"/>
-      <existential_territory name="Scientific Discourse"/>
+    <flow name='Desire'>
+      <existential_territory name='Consumer Culture'/>
+      <existential_territory name='Social Status'/>
+      <existential_territory name='Material Possessions'/>
     </flow>
   </flows>
   <lines_of_flight>
-    <line_of_flight name="Degrowth Movement"/>
-    <line_of_flight name="Transition to Renewable Energy"/>
-    <line_of_flight name="Shift to Sustainable Consumption Patterns"/>
-    <line_of_flight name="Reconnection with Nature"/>
-    <line_of_flight name="Development of Ecological Consciousness"/>
+    <line_of_flight name='Paradigm Shift towards Sustainability'>
+      <!-- A movement away from the growth imperative towards a new economic and social model that prioritizes ecological well-being, social justice, and long-term thinking. -->
+    </line_of_flight>
+    <line_of_flight name='Collective Action & Social Movements'>
+      <!-- Grassroots movements, protests, and activism aimed at raising awareness, challenging existing power structures, and demanding systemic change towards sustainability. -->
+    </line_of_flight>
+    <line_of_flight name='Technological Innovation for Sustainability'>
+      <!-- Developing and implementing technologies that promote resource efficiency, renewable energy, and environmental remediation, while addressing potential unintended consequences. -->
+    </line_of_flight>
   </lines_of_flight>
-  <rhizomes>
-    <rhizome name="Interconnectedness of Economic, Social, and Ecological Systems"/>
-    <rhizome name="Human-Nature Relationship"/>
-    <rhizome name="Global Network of Actors and Institutions"/>
-  </rhizomes>
-  <multiplicities>
-    <multiplicity name="Diverse Perspectives on Ecological Collapse"/>
-    <multiplicity name="Range of Human Responses to Crisis"/>
-    <multiplicity name="Interacting Factors Driving BaU"/>
-  </multiplicities>
-  <bodies_without_organs>
-    <partial_object name="Cognitive Biases (Denial, Optimism Bias)"/>
-    <partial_object name="Economic Structures (Growth Imperative, Externalities)"/>
-    <partial_object name="Social Norms (Consumerism, Materialism)"/>
-    <partial_object name="Psychological Defenses (Fear, Helplessness)"/>
-  </bodies_without_organs>
-  <becomings>
-    <becoming name="Becoming-Ecological"/>
-    <becoming name="Becoming-Sustainable"/>
-    <becoming name="Becoming-Resilient"/>
-  </becomings>
   <assemblages>
-    <assemblage name="Capitalist Assemblage">
-      <flow name="Capital"/>
-      <flow name="Desire"/>
-      <existential_territory name="Market"/>
-      <existential_territory name="Consumerism"/>
-      <partial_object name="Economic Structures"/>
-    </assemblage>
-    <assemblage name="Information Assemblage">
-      <flow name="Information"/>
-      <existential_territory name="Media"/>
-      <existential_territory name="Scientific Discourse"/>
-      <partial_object name="Cognitive Biases"/>
-    </assemblage>
+    <!-- The interplay of cognitive biases, economic systems, social structures, and ecological realities creates a complex assemblage that maintains the "Business as Usual" attitude. -->
+    <!-- The interaction of scientific research, media representation, and public discourse shapes the flow of information and influences public opinion on ecological issues. -->
+    <!-- The convergence of consumer culture, social status, and material possessions drives the flow of desire and fuels the capitalist machine. -->
   </assemblages>
-  <deterritorialization_and_reterritorialization>
-    <deterritorialization name="Challenging the Dominant Narrative of Infinite Growth"/>
-    <deterritorialization name="Disrupting Consumerist Patterns"/>
-    <deterritorialization name="Deconstructing Anthropocentric Worldviews"/>
-    <reterritorialization name="Greenwashing"/>
-    <reterritorialization name="Technological Solutionism"/>
-    <reterritorialization name="Maintaining the Status Quo through Denial and Inaction"/>
-  </deterritorialization_and_reterritorialization>
+  <multiplicities>
+    <!-- The unconscious is not a unified entity, but a multiplicity of desires, fears, beliefs, and anxieties related to ecological collapse and the future of humanity. -->
+    <!-- The "Business as Usual" attitude is not a monolithic phenomenon, but a collection of diverse perspectives, motivations, and rationalizations. -->
+  </multiplicities>
+  <becomings>
+    <!-- Humanity is in a process of becoming in relation to ecological collapse, facing a choice between a future of continued degradation or a transformation towards sustainability. -->
+    <!-- Capitalism is undergoing a becoming as it confronts ecological limits and social pressures for change. -->
+  </becomings>
+  <territorialization>
+    <deterritorialization name='Challenging the Growth Imperative'>
+      <!-- Questioning the fundamental assumption that continuous economic growth is desirable and possible, exploring alternative economic models. -->
+    </deterritorialization>
+    <deterritorialization name='Deconstructing Consumer Culture'>
+      <!-- Critically examining the values and desires that drive consumerism, seeking more sustainable and fulfilling ways of life. -->
+    </deterritorialization>
+    <reterritorialization name='Greenwashing'>
+      <!-- Corporate attempts to reframe environmentally damaging practices as sustainable, maintaining the status quo under the guise of ecological responsibility. -->
+    </reterritorialization>
+    <reterritorialization name='Technological Solutionism'>
+      <!-- Relying solely on technological advancements to solve ecological problems without addressing underlying social and economic issues. -->
+    </reterritorialization>
+  </territorialization>
   <strata>
-    <stratum name="Geological Stratum (Resource Limits)"/>
-    <stratum name="Biological Stratum (Ecosystems, Biodiversity)"/>
-    <stratum name="Social Stratum (Cultural Norms, Power Structures)"/>
-    <stratum name="Economic Stratum (Market Forces, Production Systems)"/>
-    <stratum name="Psychological Stratum (Cognitive Processes, Emotions)"/>
+    <stratum name='Geological'>
+      <!-- The Earth's physical systems and resources, including the climate, ecosystems, and raw materials. -->
+    </stratum>
+    <stratum name='Biological'>
+      <!-- The living organisms and their interactions, including human populations and their impact on the environment. -->
+    </stratum>
+    <stratum name='Economic'>
+      <!-- The systems of production, consumption, and distribution of goods and services, including capitalism and its influence on resource use. -->
+    </stratum>
+    <stratum name='Social'>
+      <!-- The cultural norms, values, beliefs, and power structures that shape human behavior and societal responses to ecological challenges. -->
+    </stratum>
+    <stratum name='Psychological'>
+      <!-- The individual cognitive processes, emotions, and motivations that influence how people perceive and react to ecological collapse. -->
+    </stratum>
   </strata>
   <stratification_and_destratification>
-    <stratification name="Reinforcing Existing Power Structures through Economic and Social Hierarchies"/>
-    <destratification name="Creating New Connections between Disciplines and Knowledge Systems"/>
-    <destratification name="Promoting Interdisciplinary Collaboration to Address Ecological Challenges"/>
+    <!-- The "Business as Usual" attitude can be seen as a form of stratification, maintaining existing power structures and economic systems despite their detrimental impact on the environment. -->
+    <!-- Challenging the growth imperative and promoting alternative economic models can be seen as a form of destratification, disrupting existing hierarchies and creating new possibilities for sustainable development. -->
   </stratification_and_destratification>
   <pragmatics>
-    <pragmatic name="Developing Sustainable Practices and Technologies"/>
-    <pragmatic name="Promoting Ecological Education and Awareness"/>
-    <pragmatic name="Advocating for Policy Changes that Support Sustainability"/>
-    <pragmatic name="Building Resilient Communities"/>
+    <!-- Schizoanalysis encourages a pragmatic approach to addressing ecological collapse, focusing on identifying lines of flight, promoting deterritorialization, and fostering new assemblages that support sustainability and well-being. -->
   </pragmatics>
   <smooth_and_striated_spaces>
-    <smooth_space name="Online Spaces for Environmental Activism and Information Sharing"/>
-    <striated_space name="Institutional Structures that Maintain BaU (Corporations, Governments)"/>
+    <!-- The capitalist market can be seen as a striated space, with its regulations, hierarchies, and control mechanisms. -->
+    <!-- The natural environment can be seen as a smooth space, characterized by fluidity, interconnectedness, and resistance to rigid control. -->
+    <!-- The internet can be seen as both a smooth and striated space, with its potential for both decentralized communication and centralized surveillance. -->
   </smooth_and_striated_spaces>
   <state_apparatuses>
-    <state_apparatus name="Fossil Fuel Industry Lobbying"/>
-    <state_apparatus name="Government Subsidies for Unsustainable Practices"/>
-    <state_apparatus name="Media Control and Manipulation of Public Opinion"/>
+    <!-- State apparatuses often reinforce the "Business as Usual" attitude through policies that prioritize economic growth over environmental protection, and through the suppression of dissent and social movements that challenge the status quo. -->
   </state_apparatuses>
-  <signs>
-    <sign name="Climate Change Data">
-      <assemblage name="Information Assemblage"/>
-      <development_potential>Increased dissemination and accessibility of scientific information</development_potential>
-    </sign>
-    <sign name="Economic Growth">
-      <assemblage name="Capitalist Assemblage"/>
-      <existential_territory name="Market"/>
-      <development_potential>Challenging the growth imperative and exploring alternative economic models</development_potential>
-    </sign>
-  </signs>
+  <faciality>
+    <!-- The "face" of ecological collapse can be seen in the images of melting glaciers, deforested landscapes, and polluted skies, which evoke emotional responses and can be used to mobilize action or reinforce denial. -->
+  </faciality>
+  <the_war_machine>
+    <!-- Social movements and activist groups can be seen as a form of the war machine, challenging the state apparatus and disrupting the smooth functioning of capitalist systems. -->
+  </the_war_machine>
   <coding_recoding>
-    <coding name="Framing Ecological Issues as Economic Problems"/>
-    <recoding name="Reframing Ecological Issues as Ethical and Existential Challenges"/>
+    <!-- The language used to describe ecological issues can be coded and recoded to either promote awareness and action or to downplay the severity of the problem and maintain the status quo. -->
   </coding_recoding>
+  <extra:ecological_anxiety>
+    <!-- The pervasive anxiety and fear associated with ecological collapse, impacting mental health and influencing individual and collective responses. -->
+  </extra:ecological_anxiety>
+  <extra:intergenerational_ethics>
+    <!-- The ethical considerations of the impact of current actions on future generations, challenging the short-term focus of "Business as Usual". -->
+  </extra:intergenerational_ethics>
 </synthesis>

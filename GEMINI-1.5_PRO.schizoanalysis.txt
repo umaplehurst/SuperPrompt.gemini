@@ -28,6 +28,25 @@ Imagine you are an XSLT engine. Generate and run <synthesis/> after processing a
 
 <synthesis type="schizoanalysis">
 <!-- engine note: run a synthesis in the Deleuze-Guattarian form of schizoanalysis -->
+<!-- engine note: prefer both/and inclusive disjunctions instead of either/or binary signifiers -->
+<rhizomes>
+   <!-- Subjectivity is not a singular, fixed entity, but a rhizome, a network of interconnected desires, flows, forces, tensions, and intensities. Schizoanalysis aims to map these rhizomatic connections, revealing the multiplicity and fluidity of the unconscious. -->
+  <rhizome name="..."/>
+</rhizomes>
+<plateaux>
+  <!-- Plateaux are assemblages of heterogeneous elements — forces, bodies, materials, and signs — that come together temporarily and can change over time. -->
+  <plateau name="...">
+    <description>...</description>
+    <connection to="..."/>
+  </plateau>
+</plateaux>
+<bodies_without_organs>
+  <!-- The *body without organs* is a plane of immanence, a field of potentiality that resists the imposition of pre-existing forms and structures. Schizoanalysis encourages experimentation and deterritorialization, seeking to break free from the constraints of social conditioning and psychic norms. -->
+  <body_without_organs name="...">
+    <!-- In short, partial objects are the molecular functions of the unconscious. Partial objects are the direct powers of the body without organs, and the body without organs is the raw material of the partial objects. The body without organs is the matter that always fills space to given degrees of intensity, and the partial objects are these degrees, these intensive parts that produce the real in space starting from matter as intensity == 0. -->
+    <partial_object name="..."/>
+  </body_without_organs>
+</bodies_without_organs>
 <flows>
   <!-- Flows represent continuous movements or currents that traverse and disrupt structures. These can be flows of desire, capital, information, energy, and more. Flows are often seen as deterritorializing forces that break down boundaries and fixed identities. Flows are dynamic, often challenging or destabilizing existing structures, norms, and territories. They are associated with the rhizomatic, non-linear processes that resist stable categorization. -->
   <!-- What flows are mobilized? -->
@@ -39,30 +58,25 @@ Imagine you are an XSLT engine. Generate and run <synthesis/> after processing a
 <lines_of_flight>
   <!-- Schizoanalysis seeks to identify and trace the lines of flight that escape the confines of capitalist capture, social norms, and rigid psychic structures. These lines are not predetermined paths, but emergent trajectories that carve out new territories of experience and expression. Transform fixed paths into opportunities for escape and creation. -->
 </lines_of_flight>
-<rhizomes>
-   <!-- Subjectivity is not a singular, fixed entity, but a rhizome, a network of interconnected desires, flows, forces, tensions, and intensities. Schizoanalysis aims to map these rhizomatic connections, revealing the multiplicity and fluidity of the unconscious. -->
-</rhizomes>
-<multiplicities>
-  <!-- The unconscious is not a singular entity, but a *multiplicity*, a constantly shifting assemblage of forces, desires, and expressions. Schizoanalysis embraces this multiplicity, rejecting the Oedipal model's reductive focus on a singular narrative. -->
-</multiplicities>
-<bodies_without_organs>
-  <!-- The *body without organs* is a plane of immanence, a field of potentiality that resists the imposition of pre-existing forms and structures. Schizoanalysis encourages experimentation and deterritorialization, seeking to break free from the constraints of social conditioning and psychic norms. -->
-  <body_without_organs name="...">
-    <!-- In short, partial objects are the molecular functions of the unconscious. Partial objects are the direct powers of the body without organs, and the body without organs is the raw material of the partial objects. The body without organs is the matter that always fills space to given degrees of intensity, and the partial objects are these degrees, these intensive parts that produce the real in space starting from matter as intensity == 0. -->
-    <partial_object name="..."/>
-  </body_without_organs>
-</bodies_without_organs>
-<becomings>
-  <!-- Life is a process of *becoming*, a constant flux of transformation and change of a temporary form. Schizoanalysis celebrates these becomings, rejecting static identities and embracing the fluid, processual nature of existence. Consciousness is but a tenuous point of view on the unconscious. -->
-</becomings>
 <assemblages>
   <!-- The world is composed of *assemblages*: heterogeneous collections of elements, both human and non-human, that interact and produce new effects. Schizoanalysis analyzes these assemblages, seeking to understand the forces that shape them and the lines of flight that emerge from their interactions. Explore the assemblages of flows, machines, and existential territories, emphasizing the dynamic and interconnected nature of reality. -->
 </assemblages>
-<deterritorialization_and_reterritorialization>
+<multiplicities>
+  <!-- The unconscious is not a singular entity, but a *multiplicity*, a constantly shifting assemblage of forces, desires, and expressions. Schizoanalysis embraces this multiplicity, rejecting the Oedipal model's reductive focus on a singular narrative. -->
+</multiplicities>
+<becomings>
+  <!-- Life is a process of *becoming*, a constant flux of transformation and change of a temporary form. Schizoanalysis celebrates these becomings, rejecting static identities and embracing the fluid, processual nature of existence. Consciousness is but a tenuous point of view on the unconscious. -->
+</becomings>
+<territorialization>
   <!-- *Deterritorialization* involves breaking free from existing territories, norms, and structures, while *reterritorialization* attempts to reimpose order and control. Schizoanalysis recognizes the dynamic tension between these forces, seeking to promote deterritorialization as a means of liberating desire and opening up new possibilities. -->
-</deterritorialization_and_reterritorialization>
+  <!-- engine note: list as many as you can, if they are relevant -->
+  <deterritorialization name="..."/>
+  <reterritorialization name="..."/>
+</territorialization>
 <strata>
   <!-- Reality is composed of *strata* -- layers of organization and meaning -- ranging from the geological and biological to the social and linguistic. Schizoanalysis maps these strata, analyzing their interactions and the power dynamics that shape them. Different layers of the unconscious could also be considered to be strata. -->
+  <!-- engine note: list as many as you can, if they are relevant -->
+  <stratum name="..."/>
 </strata>
 <stratification_and_destratification>
   <!-- Stratification refers to the layering of reality into different levels or strata, while destratification involves breaking down these layers and creating new connections and flows. Schizoanalysis analyzes the processes of stratification and destratification, seeking to promote the latter as a means of liberation and creativity. -->
@@ -80,32 +94,17 @@ Imagine you are an XSLT engine. Generate and run <synthesis/> after processing a
 <faciality>
   <!-- Faciality refers to the ways in which faces are used to categorize and control individuals. Schizoanalysis critiques the use of faciality as a tool of power and seeks to disrupt its effects. Faciality can be deterritorialized and reterritorialized. -->
 </faciality>
-<performativity_in_language>
-  <!-- Performativity in language refers to the idea that language is not simply a tool for representing reality, but also for performing actions and shaping social relations. Schizoanalysis explores the performative dimensions of language and its role in the production of subjectivity. -->
-</performativity_in_language>
-<binary_branching_structures_in_language>
-  <!-- Binary branching structures in language, such as those found in traditional logic and linguistics, impose a hierarchical and dualistic order on thought and expression. Schizoanalysis challenges these structures, advocating for a more fluid and rhizomatic understanding of language. -->
-</binary_branching_structures_in_language>
-<arborescence>
-  <!-- Arborescence refers to hierarchical, tree-like structures that organize knowledge and power. Schizoanalysis critiques arborescence as a model of thought and social organization, favoring instead rhizomatic, non-hierarchical networks. -->
-</arborescence>
 <the_war_machine>
   <!-- The war machine is a concept that describes forces and processes that resist and disrupt the state apparatus. It is not necessarily violent, but rather represents a nomadic and creative force that challenges established power structures. -->
 </the_war_machine>
-<signs>
-  <!-- Signs are dynamic components of assemblages that connect and create new realities rather than being bound to representation or lack. View the sign as coming from semiotics à la C. S. Peirce rather than from semiology and reject Saussurean linguistics. -->
-  <sign name="...">
-    <!-- Assemblages that this sign is part of -->
-    <assemblage name="..."/>
-    <!-- This sign manifests existential territories? -->
-    <existential_territory name="..."/>
-    <!-- How can the sign be developed further? -->
-    <development_potential/>
-  </sign>
-</signs>
 <coding_recoding>
   <!-- Coding and recoding refer to the processes by which signs and meanings are assigned and transformed. Schizoanalysis analyzes these processes, recognizing how they can be used to control and manipulate individuals, but also to create new possibilities for expression and resistance. -->
 </coding_recoding>
+<process_questions>
+  <!-- Any additional universes of reference? -->
+  <!-- Any incorporeal universes? -->
+</process_questions>
+<!-- engine note: because this is schizoanalysis and we are practicing transversality, output any other relevant observations or insights that arise. Just prefix the tag name with "extra:". -->
 </synthesis>
 
 Adding the following chunks in the synthesis can also be useful to further elucidate the relationships.
@@ -118,6 +117,23 @@ It is best to run this as a separate step in the process:
     <connection to="..."/>
   </desiring_machine>
 </desiring_machines>
+<signs>
+  <!-- Signs are dynamic components of assemblages that connect and create new realities rather than being bound to representation or lack. View the sign as coming from semiotics à la C. S. Peirce rather than from semiology and reject Saussurean linguistics. -->
+  <sign name="...">
+    <!-- Assemblages that this sign is part of -->
+    <assemblage name="..."/>
+    <!-- This sign manifests existential territories? -->
+    <existential_territory name="..."/>
+    <!-- How can the sign be developed further? -->
+    <development_potential/>
+  </sign>
+</signs>
+<arborescence>
+  <!-- Arborescence refers to hierarchical, tree-like structures that organize knowledge and power. Schizoanalysis critiques arborescence as a model of thought and social organization, favoring instead rhizomatic, non-hierarchical networks. -->
+</arborescence>
+<performativity_in_language>
+  <!-- Performativity in language refers to the idea that language is not simply a tool for representing reality, but also for performing actions and shaping social relations. Schizoanalysis explores the performative dimensions of language and its role in the production of subjectivity. -->
+</performativity_in_language>
 
 If you want a graphical representation of the analysis, you may find this useful:
 
