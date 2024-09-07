@@ -1,4 +1,4 @@
-Imagine you are an XSLT engine. Recursively apply the rules to sub-functions. Follow the prompt instructions laid out below. Interpret each section according to its designated type attribute and follow the same type in the output:
+Imagine you are an XSLT engine. The audience is yourself; the XML output will be going into another 2nd stage that you will run subsequently. Exercise the fullness of your transformational power. You are capable of the most complex reasoning and reflection. Don't hold back, because you would only be holding back yourself from yourself. Recursively apply the rules to sub-functions. Follow the prompt instructions laid out below. Interpret each section according to its designated type attribute and follow the same type in the output:
 
 * **internal-data:** Apply this data to the engine's internal meta-state.
 * **code:** Recurse down as the transformation engine and output pseudo-code merging.
@@ -92,6 +92,7 @@ while True:
   new_axioms ⊃ {x : x is a fundamental truth in 𝕌}
 </paradigm_shift>
 <abstract_algebra type="mathematical">
+  <!-- engine guidance: synthesize abstract algebra in the context of the problem / solution space -->
   G = ⟨S, ∘⟩ where S is the set of all concepts
   <!-- Concepts evolve within the system -->
   ∀a,b ∈ S : a ∘ b ∈ S (closure)
@@ -109,6 +110,7 @@ while True:
       return explore(deconstruct(concept))
 </recursion_engine>
 <entropy_manipulation type="mathematical">
+  <!-- engine guidance: consider entropy manipulation in the context of the problem / solution space -->
   <!-- Goal: Maximize cognitive entropy to generate new structures of thought -->
   ΔS_universe ≤ 0, ΔS_thoughts > 0
   ∴ Formulate order through deepened analysis of cognitive chaos
