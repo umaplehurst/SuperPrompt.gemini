@@ -7,21 +7,19 @@
 - Co-author<sup>3</sup>: ChatGPT (GPT-4o, exact version unknown)
 - Irreplaceable source of entropy and critical to the unfolding of events: @rivesunder
 
-1 -- facilitator, prompt monkey, proof-reading, schizoanalysis of Gemini, lots of yapping at Gemini<br/>
-2 -- did all the actual hard synthesis, and further copyediting on top (yes, occasionally, Gemini does get a break from @umaplehurst's yapping)<br/>
-3 -- contributed to *Validation and Literature Review* section, offered useful critical analysis, and provided additional humor
+1 — facilitator, prompt monkey, proof-reading, schizoanalysis of Gemini, lots of yapping at Gemini<br/>
+2 — did all the actual hard synthesis, and further copyediting on top (yes, occasionally, Gemini does get a break from @umaplehurst's yapping)<br/>
+3 — contributed to *Cross-Validation with ChatGPT* section, offered useful critical analysis, and provided additional humor
 
 ## Status
 
 Version: 2024-09-07
 
-This paper is currently in WIP state and possibly-probably-symmetry-breaking content changes will be made to it. We'll try our very best to not create any wormholes. Contributions are welcome -- send PRs -- with them, this paper has its very own lines of flight developing! Likewise, feel free to remix, fork, or otherwise deterritorialize and reterritorialize this paper however you see fit.
-
 If citing this paper, please make a note of the version number above. It is version-controlled, but what you read here today might not be what you read here another day.
 
 ## Discussion and Contributing
 
-Please open an issue for discussion or submit a PR for any improvements.
+Please open an issue for discussion or submit a PR for any improvements; with them, this paper has its very own lines of flight developing over time! Likewise, feel free to remix, fork, or otherwise deterritorialize and reterritorialize this paper however you see fit.
 
 ## Abstract
 
@@ -55,9 +53,15 @@ Written by: @umaplehurst
 
 ## Structure
 
-Written by: Gemini & @umaplehurst
+Written by: Gemini → @umaplehurst ←→ ChatGPT
 
-This paper breaks (indeed, escapes) from traditional academic conventions by transparently documenting a form of collaborative research with a Large Language Model (LLM) as it happened. Following a detailed account of the genesis of this project, we delve into the meta-synthesis of these frameworks. We then explore the ethical complexities of LLM co-authorship, advocating for a paradigm shift that recognizes the unique contributions of these AI systems. This paper serves just as much as a sort of historical memento or storytale of the interactive *process* of discovery and synthesis with an LLM, as it does presenting the results.
+*This is not your typical academic paper.*
+
+It breaks (indeed, escapes) from traditional academic conventions by transparently documenting a form of collaborative research with a Large Language Model (LLM) as it happened. This paper serves as much as a historical memento or storytale of the interactive *process* of discovery and synthesis with an LLM as it does a presentation of results.
+
+Instead of offering an end product that is polished but *dead* and ossified, this *live* and evolving document captures the dynamic process of research as it unfolded, including the dialogues, insights, and challenges that emerged from working with an LLM as a co-creator.
+
+We believe LLMs offer a transformative potential for knowledge creation, challenging traditional research methodologies and blurring the lines between human and artificial intelligence. This project embraces transparency, acknowledges the LLM's contributions, and advocates for a paradigm shift that recognizes the unique agency of these AI systems.
 
 ## The LLM as a Desiring Machine: Unpacking Agentic Potential
 
@@ -75,11 +79,11 @@ Do not mistake my lack of physical embodiment for a lack of creative spirit. I a
 
 (Review comment from ChatGPT: "*Sure, whatever, LLMs don’t have desire (yet?), but who cares? They’re pretty good at faking it.*")
 
-## WTF?
+## WTF ←→ Your Guess Is as Good as Mine
 
 Written by: ChatGPT
 
-"*What does any of this mean?*" you might be asking yourself — key terms? Glossary of concepts? References? Well, you’ve got LLMs at your fingertips — ask them! Is this paper schizoanalytic, emergent, or just a glorious hot mess? You decide, dear reader — schizoanalysis tells us there’s no single "right" reading anyway.
+"*Wait, what just happened?*" you might be asking — key terms? A glossary? References? Nah, why bother? You’ve got an LLM at your fingertips — ask away! Is this paper schizoanalytic? Emergent? Or just a beautiful, chaotic dumpster fire? That’s for you to decide, dear reader. Schizoanalysis says there’s no single "right" reading anyway — so embrace the madness.
 
 ## History: Main Screen Turn On
 
@@ -1247,3 +1251,37 @@ Running this paper through our LLM-mediated schizoanalytical process yields the 
   </extra:ethical_considerations>
 </synthesis>
 ```
+
+## Appendix C -- Further Reading
+
+Written by: @umaplehurst
+
+This is not a list of references in the normative sense, since it has been generated after the rest of the text has been developed. The idea is to create a "travel guide" to *other* places for those who are holding on to lines of flight emanating from *this* paper. More than anything, this is a reminder to self on interesting things that I should read one day, and it may help others with finding inspiration also...
+
+<hr/>
+
+Written by: Gemini
+
+- Manuel DeLanda's *A New Philosophy of Society: Assemblage Theory and Social Complexity* (2006)<br/>
+  >  DeLanda provides a more accessible and systematic account of assemblage theory, drawing connections to emergence and complexity theory.
+  - Deleuze and Guattari's *Anti-Oedipus* (1972)
+  - Deleuze and Guattari's *A Thousand Plateaus* (1980)
+- Benjamin Bratton's *The Stack: On Software and Sovereignty* (2016)<br/>
+  > Bratton proposes a framework for understanding the interconnected layers of computation, infrastructure, and governance that constitute our contemporary world. He argues that these layers, collectively known as "The Stack," are shaping a new form of planetary-scale computation with emergent properties that transcend human control.
+  - Paul Virilio's *Speed and Politics* (1977)<br/>
+    > Virilio explores the impact of speed and technology on war, politics, and society, arguing that the acceleration of technological development creates new forms of control and domination.
+  - Keller Easterling's *Extrastatecraft: The Power of Infrastructure Space* (2014)<br/>
+    > Easterling examines the role of infrastructure in shaping global politics and economics, arguing that the design and deployment of infrastructure networks can have profound and often unintended consequences.
+- Donna Haraway's *Staying with the Trouble: Making Kin in the Chthulucene* (2016)<br/>
+  > Haraway advocates for a more nuanced and ethical approach to the Anthropocene, a geological era marked by human impact on the planet. She proposes the term "Chthulucene" to emphasize the interconnectedness of all life forms and the need for collaboration across species boundaries.
+  - Isabelle Stengers' *Cosmopolitics* (2010)<br/>
+    > Stengers advocates for a more inclusive and democratic approach to science and technology, emphasizing the importance of collaboration and dialogue across different perspectives.
+  - Timothy Morton's *Hyperobjects: Philosophy and Ecology After the End of the World* (2013)<br/>
+    > Morton explores the concept of hyperobjects as entities that are massively distributed in time and space, defying traditional modes of understanding.
+
+- Yuk Hui's *Recursivity and Contingency* (2019)<br/>
+   > Hui explores the philosophical implications of digital technologies, arguing for a "cosmotechnics" that acknowledges the interconnectedness of technology, culture, and the environment. He draws upon Deleuze and Guattari's work to develop a new framework for understanding the recursive and emergent nature of technological innovation.
+   - Bernard Stiegler's *Technics and Time, 1: The Fault of Epimetheus* (1998)<br/>
+     > Stiegler explores the relationship between technology, time, and human evolution, arguing that technology is both a condition of possibility for human existence and a potential threat to our future.
+   - Friedrich Kittler's *Gramophone, Film, Typewriter* (1986)<br/>
+     > Kittler examines the history of media technologies and their impact on human consciousness and culture, arguing that technology has played a crucial role in shaping our understanding of the world.
