@@ -13,7 +13,7 @@
 
 ## Status
 
-Version: 2024-09-07
+Version: 2024-09-08
 
 If citing this paper, please make a note of the version number above. It is version-controlled, but what you read here today might not be what you read here another day.
 
@@ -544,7 +544,7 @@ Gemini has suggested the following as areas for further analysis and the followi
 
 ## Mathematics
 
-Written by: Gemini<br/>
+Written by: Gemini (*running: SuperPrompt.gemini*)<br/>
 Prompting monkey: @umaplehurst
 
 This section still requires more detailed human review against the broader literature and is a draft. Please submit PRs to resolve any inaccuracies or add improvements if spotted! It is also not in any way complete, nor will it ever be: there is far more to add here, far more additional synthesis to do...
