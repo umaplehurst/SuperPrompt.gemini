@@ -6,9 +6,11 @@ to it and it's most powerful when used as a 2-stage pipeline. Feed it your
 problems and watch things unroll and expand! There are plenty example
 test cases available [here](test-cases/gemini-1.5_pro/).
 
-- [GEMINI-1.5_PRO.txt](GEMINI-1.5_PRO.txt): The primary engine for problem exploration à la SuperPrompt.
-- [GEMINI-1.5_PRO.execution_engine.txt](GEMINI-1.5_PRO.execution_engine.txt): A specialized generic secondary engine that processes the output from the primary engine to generate further insights and analysis. Use with the XML output of the primary engine.
-- [GEMINI-1.5_PRO.schizoanalysis.txt](GEMINI-1.5_PRO.schizoanalysis.txt): A specialized domain-specific engine designed for performing schizoanalysis on specific texts or concepts. This serves a niche use-case, so your mileage with it may vary. Use with the XML output of the primary engine or with your own texts / problem statements.
+- [GEMINI-1.5_PRO.txt](GEMINI-1.5_PRO.txt): The primary engine for problem exploration à la SuperPrompt. Use as 1st-stage.
+- [GEMINI-1.5_PRO.execution_engine.txt](GEMINI-1.5_PRO.execution_engine.txt): A specialized generic secondary engine that processes the output from the primary engine to generate further insights and analysis. Use with the XML output of the primary engine. Use as 2nd-stage.
+- [GEMINI-1.5_PRO.schizoanalysis.txt](GEMINI-1.5_PRO.schizoanalysis.txt): A specialized domain-specific engine designed for performing schizoanalysis on specific texts or concepts. This serves a niche use-case, so your mileage with it may vary. Use with the XML output of the primary engine or with your own texts / problem statements. Use as 1st-stage or as 2nd-stage.
+- [GEMINI-1.5_PRO.tm.txt](GEMINI-1.5_PRO.tm.txt): A first-stage primary engine, port of the Transcendent Mind Protocol from upstream. Use as 1st-stage.
+- [GEMINI-1.5_PRO.unrolled.txt](GEMINI-1.5_PRO.unrolled.txt): Like [GEMINI-1.5_PRO.txt](GEMINI-1.5_PRO.txt) but generates additional local context. Use as 1st-stage.
 
 ## How do I use it?
 
