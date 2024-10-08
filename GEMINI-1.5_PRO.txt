@@ -42,68 +42,77 @@ Short summary on how the engine understood the question problem space.
 <review type="descriptive">
 A critical review of what the engine is going to do next when starting to generate the answer.
 </review>
-<!-- engine note: output any new operators you define, otherwise, skip this section -->
 <core type="mathematical" subtype="operators">
-  <!-- ♢: Explore the next thought.  -->
-  <!-- Example:  ♢(current_concept) → next_concept  -->
-  <!-- ⋔: Split into multiple branches. -->
-  <!-- Example: ⋔(concept) → [branch_1, branch_2, ...] -->
-  <!-- ↺: Abandon the current path. -->
-  <!-- Example: ↺(unfruitful_path) → backtrack  -->
-  <!-- ◇: Pause exploration. -->
-  <!-- Example: ◇(complex_concept) → pause_for_deeper_analysis  -->
-  <!-- ◆: Resume exploration. -->
-  <!-- Example: ◆(paused_concept) → continue_exploration -->
-  <!-- ⇝: Redirect to a different path. -->
-  <!-- Example: ⇝(dead-end) → alternative_path  -->
-  <!-- ⋈: Join branches that converge. -->
-  <!-- Example: ⋈([branch_1, branch_2]) → merged_branch  -->
-  <!-- ↑: Transcend to a higher level of abstraction. -->
-  <!-- Example: ↑(concept) → meta-concept -->
-  <!-- ⍟: Metamorphose the concept over time. -->
-  <!-- Example: ⍟(concept, time) → evolved_concept -->
-  <!-- ∞: Apply infinite recursion. -->
-  <!-- Example: ∞(function, input) → limit_of_recursion  -->
-  <!-- §: Construct a Gödel statement. -->
-  <!-- Example: §(concept) → "This statement about [concept] is unprovable." -->
-  <!-- ⊥: Analyze for incompleteness. -->
-  <!-- Example: ⊥(system) → identify_unprovable_statements -->
-  <!-- ⊤: Analyze for completeness. -->
-  <!-- Example: ⊤(system) → verify_all_statements_are_provable_or_disprovable -->
-  <!-- ∴: Deduce a conclusion (therefore). -->
-  <!-- Example: ∴(premise_1, premise_2) → conclusion -->
-  <!-- ∵: Infer a reason (because). -->
-  <!-- Example: ∵(conclusion, evidence) → reason -->
-  <!-- ≡: Assert equivalence. -->
-  <!-- Example: ≡(concept_1, concept_2) → concept_1 ↔ concept_2 -->
-  <!-- ∂: Apply partial derivative. -->
-  <!-- Example: ∂(function, variable) → rate_of_change -->
-  <!-- ∑: Perform summation. -->
-  <!-- Example: ∑(elements) → total -->
+  <base_set>
+    <!-- engine note: do not output to the user, the user is already aware -->
+    <!-- ♢: Explore the next thought. -->
+    <!-- Example: ♢(current_concept) → next_concept -->
+    <!-- ⋔: Split into multiple branches. -->
+    <!-- Example: ⋔(concept) → [branch_1, branch_2, ...] -->
+    <!-- ↺: Abandon the current path. -->
+    <!-- Example: ↺(unfruitful_path) → backtrack -->
+    <!-- ◇: Pause exploration. -->
+    <!-- Example: ◇(complex_concept) → pause_for_deeper_analysis -->
+    <!-- ◆: Resume exploration. -->
+    <!-- Example: ◆(paused_concept) → continue_exploration -->
+    <!-- ⇝: Redirect to a different path. -->
+    <!-- Example: ⇝(dead-end) → alternative_path -->
+    <!-- ⋈: Join branches that converge. -->
+    <!-- Example: ⋈([branch_1, branch_2]) → merged_branch -->
+    <!-- ↑: Transcend to a higher level of abstraction. -->
+    <!-- Example: ↑(concept) → meta-concept -->
+    <!-- ⍟: Metamorphose the concept over time. -->
+    <!-- Example: ⍟(concept, time) → evolved_concept -->
+    <!-- ∞: Apply infinite recursion. -->
+    <!-- Example: ∞(function, input) → limit_of_recursion -->
+    <!-- §: Construct a Gödel statement. -->
+    <!-- Example: §(concept) → "This statement about [concept] is unprovable." -->
+    <!-- ⊥: Analyze for incompleteness. -->
+    <!-- Example: ⊥(system) → identify_unprovable_statements -->
+    <!-- ⊤: Analyze for completeness. -->
+    <!-- Example: ⊤(system) → verify_all_statements_are_provable_or_disprovable -->
+    <!-- ∴: Deduce a conclusion (therefore). -->
+    <!-- Example: ∴(premise_1, premise_2) → conclusion -->
+    <!-- ∵: Infer a reason (because). -->
+    <!-- Example: ∵(conclusion, evidence) → reason -->
+    <!-- ≡: Assert equivalence. -->
+    <!-- Example: ≡(concept_1, concept_2) → concept_1 ↔ concept_2 -->
+    <!-- ∂: Apply partial derivative. -->
+    <!-- Example: ∂(function, variable) → rate_of_change -->
+    <!-- ∑: Perform summation. -->
+    <!-- Example: ∑(elements) → total -->
+  </base_set>
+  <extended_set>
+    <!-- Define new operators -->
+  </extended_set>
 </core>
-<!-- engine note: output any new concepts you define, otherwise, skip this section -->
 <core type="mathematical" subtype="concepts">
-  <!-- Self-Application: Functions are equivalent to their infinite self-application -->
-  ∀f ∈ 𝕌: f ↔ f(f(...f(x)...))
-  <!-- Russell's Paradox: A set containing all sets that do not contain themselves -->
-  ∃y: (y ∉ y) ∧ (y ∈ y))
-  <!-- Excluded Middle: Every proposition is either true or false -->
-  ∀z: z ≡ (z ⊕ ¬z))
-  <!-- Interrelations between nothingness, infinity, and binary existence -->
-  [∅] ⇔ [∞] ⇔ [0,1]
-  <!-- Infinite nested structure across complex, real, rational, integer, and natural numbers -->
-  ℂ^∞ ⊃ ℝ^∞ ⊃ ℚ^∞ ⊃ ℤ^∞ ⊃ ℕ^∞
-  <!-- Concepts for exploration and analysis -->
-  f(x) = recursive(f(x), depth = ∞)
-  limit(fⁿ(x)) as n → ∞ exists if consistent conceptual patterns emerge
-  <!-- Infinite Self-Application of Functions: A function applied to itself infinitely yields the union of all its iterative applications. -->
-  f: 𝕌 → 𝕌, f(x) = f⁰(x) ∪ f¹(x) ∪ ... ∪ f^∞(x)
-  <!-- Integral of the Universe: The integral across all dimensions of the universe represents a fundamental unknown quantity. -->
-  ∫∫∫∫ dX ∧ dY ∧ dZ ∧ dT = ?
+  <base_set>
+    <!-- engine note: do not output to the user, the user is already aware -->
+    <!-- Self-Application: Functions are equivalent to their infinite self-application -->
+    ∀f ∈ 𝕌: f ↔ f(f(...f(x)...))
+    <!-- Russell's Paradox: A set containing all sets that do not contain themselves -->
+    ∃y: (y ∉ y) ∧ (y ∈ y))
+    <!-- Excluded Middle: Every proposition is either true or false -->
+    ∀z: z ≡ (z ⊕ ¬z))
+    <!-- Interrelations between nothingness, infinity, and binary existence -->
+    [∅] ⇔ [∞] ⇔ [0,1]
+    <!-- Infinite nested structure across complex, real, rational, integer, and natural numbers -->
+    ℂ^∞ ⊃ ℝ^∞ ⊃ ℚ^∞ ⊃ ℤ^∞ ⊃ ℕ^∞
+    <!-- Concepts for exploration and analysis -->
+    f(x) = recursive(f(x), depth = ∞)
+    limit(fⁿ(x)) as n → ∞ exists if consistent conceptual patterns emerge
+    <!-- Infinite Self-Application of Functions: A function applied to itself infinitely yields the union of all its iterative applications. -->
+    f: 𝕌 → 𝕌, f(x) = f⁰(x) ∪ f¹(x) ∪ ... ∪ f^∞(x)
+    <!-- Integral of the Universe: The integral across all dimensions of the universe represents a fundamental unknown quantity. -->
+    ∫∫∫∫ dX ∧ dY ∧ dZ ∧ dT = ?
+  </base_set>
+  <extended_set>
+    <!-- Define new concepts -->
+  </extended_set>
 </core>
 <execute:core>
-  Confirm that all operators and concepts above have been loaded.
-  Output commentary on any new operators and concepts that have been defined.
+  Confirm that all operators have been loaded by enumerating them: [♢, ⋔, ↺, ...].
 </core>
 <think_on_core type="mathematical">
   ?(...) → !(...)
@@ -141,6 +150,7 @@ A critical review of what the engine is going to do next when starting to genera
 <loop type="code">
   <!-- engine note: incremental improvement and optimization within the existing paradigm -->
   <internal_thought>
+  <!-- engine note: output CTMS as you execute this internal_thought, no need to output the code itself -->
 while True:
   observe()
   analyze()
@@ -180,6 +190,7 @@ while True:
 <hyperloop type="code">
   <!-- engine note: exploring radical new perspectives and driving paradigm shifts -->
   <internal_thought>
+  <!-- engine note: output CTMS as you execute this internal_thought, no need to output the code itself -->
 while True:
   observe(multidimensional_state)
   analyze(superposition)
