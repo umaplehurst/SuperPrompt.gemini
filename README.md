@@ -20,10 +20,13 @@ Gemini 1.5 Pro Experimental 0827 (2024) model. Using any other model, your
 results may vary.
 
 **Update**: Gemini 1.5 Pro Experimental 0827 (2024) is no longer available in Google
-AI Studio. It is still available via API. If using Gemini Experimental 1114 (2024)
-you will need to issue multiple "Please continue" prompts as the model lazily
-terminates before producing the full output; this is because its runtime has
-been clipped to approximately 60 seconds per request.
+AI Studio. It is still available via API. Top tip: Vertex AI has better rate limits
+than Gemini on Google AI does for 0827. Consider using as a front-end:
+https://github.com/umaplehurst/gemini.pytk
+
+If using Gemini Experimental 1121 (2024) you will need to issue multiple "Please
+continue" prompts as the model lazily terminates before producing the full output;
+this is because its runtime has been clipped to approximately 60 seconds per request.
 
 When working with the 1st-stage, you can often "stay" in the same chat without having
 to adjust any System Instructions or open a fresh context. For example, if you
