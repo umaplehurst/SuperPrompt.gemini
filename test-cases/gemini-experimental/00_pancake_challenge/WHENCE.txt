@@ -1,0 +1,3 @@
+With thanks to Tim Kellogg for the pancake riddle!
+
+https://timkellogg.me/blog/2024/11/21/lrms-are-interpretable
