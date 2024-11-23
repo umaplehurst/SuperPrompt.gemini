@@ -4,7 +4,8 @@ This is an LLM prompt originally based on SuperPrompt for Claude, adapted to
 Gemini, and now forked, modified & extended. Additional features have been added
 to it and it's most powerful when used as a 2-stage pipeline. Feed it your
 problems and watch things unroll and expand! There are plenty example
-test cases available [here](test-cases/gemini-1.5_pro/).
+test cases available [here](test-cases/gemini-1.5_pro/). See
+[here](test-cases/gemini-experimental/) for very latest R&D.
 
 Primary prompts:
 
