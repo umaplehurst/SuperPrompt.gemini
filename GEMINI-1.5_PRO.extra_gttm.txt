@@ -100,6 +100,7 @@ Explicit conventions:
 ```
 
 ```xml
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/umaplehurst/SuperPrompt.gemini/refs/heads/main/renderer/gemini_pancakes.xsl"?>
 <answer_operator xmlns:execute="http://gemini.example.com/execute" xmlns:gttm="http://gemini.example.com/gttm">
 <game_plan type="descriptive">
 A high-level sequence of what the engine is going to do to generate the answer.
